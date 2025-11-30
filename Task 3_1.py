@@ -3,7 +3,7 @@ exceptions = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "
 flag = True
 num = input("Enter a number: ")
 for i in num:
-    if i in exceptions:
+    if i not in numbers:
         print("Please enter only integers")
         flag = False
         break
